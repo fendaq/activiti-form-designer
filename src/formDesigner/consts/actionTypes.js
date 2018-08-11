@@ -1,0 +1,35 @@
+// process
+export const GET_PROCESS_TYPES = 'GET_PROCESS_TYPES';
+export const GET_PROCESS_DEFINITIONS = 'GET_PROCESS_DEFINITIONS';
+export const GET_ALL_TASK_FORM_PROPERTIES = 'GET_ALL_TASK_FORM_PROPERTIES';
+export const SELECT_PROCESS_TYPE = 'SELECT_PROCESS_TYPE';
+export const SELECT_PROCESS_DEFINITIONS = 'SELECT_PROCESS_DEFINITIONS';
+export const SELECT_PROCESS_TASK = 'SELECT_PROCESS_TASK';
+export const SET_SWITCH_COUNT = 'SET_SWITCH_COUNT';
+export const COPY_LAYOUT_TREE = 'COPY_LAYOUT_TREE';
+
+// create models
+export const CREATE_FORM_PROPERTY = 'CREATE_FORM_PROPERTY';
+
+export const DRAG_SOURCE_ITEM = 'DRAG_SOURCE_ITEM';
+
+// 根据组件类型和同类组件的ID设置属性
+export const SET_COMPONENT_PROPERATIES = 'SET_COMPONENT_PROPERATIES';
+
+// 选择当前需要进行属性编辑的组件
+export const SET_ACTIVE_COMPONENT = 'SET_ACTIVE_COMPONENT';
+
+// formExtend的组件id与formProperty的formExtendID字段关联
+export const BIND_FORM_PROPERTY_EXTENDID = 'BIND_FORM_PROPERTY_EXTENDID';
+
+// formExtend的组件id与formProperty的formExtendID字段关联
+export const UNBIND_FORM_PROPERTY_EXTENDID = 'UNBIND_FORM_PROPERTY_EXTENDID';
+
+// 记录上一次编辑组件的ID，用于判定前后两次编辑组件是否相同
+export const SET_LAST_COMPONENT_ID = 'SET_LAST_COMPONENT_ID';
+
+// 设置form渲染树
+export const SET_LAYOUT_TREE = 'SET_LAYOUT_TREE';
+
+// 动态查询组件保存查询结果集
+export const SET_DYNAMIC_SEARCH_RESULT = 'SET_DYNAMIC_SEARCH_RESULT';

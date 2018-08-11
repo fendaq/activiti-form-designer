@@ -1,0 +1,9 @@
+{
+  "/formDesignerController/getProcessType*": "/getProcessType",
+  "/formDesignerController/getProcessDefinitions*": "/getProcessDefinitions",
+  "/formDesignerController/getAllTaskFormProperties*": "/getAllTaskFormProperties",
+  "/formDesignerController/getRadioItems*": "/getRadioItems",
+  "/formDesignerController/getCheckboxItems*": "/getCheckboxItems",
+  "/models": "/models",
+  "/deployments": "/deployments"
+}

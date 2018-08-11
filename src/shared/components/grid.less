@@ -1,0 +1,21 @@
+@border-color: #e8e8e8;
+
+.grid-layout {
+	margin-bottom: 16px;
+
+	&.bordered {
+		border-top: 1px solid @border-color;
+		border-left: 1px solid @border-color;
+	
+		& > .ant-row > div:not(.gutter-row) {
+			min-height: 60px;
+			padding: 10px;
+			border-right: 1px solid @border-color;
+			border-bottom: 1px solid @border-color;
+		}
+	
+		.ant-form-item {
+			margin-bottom: 0;
+		}
+	}
+}

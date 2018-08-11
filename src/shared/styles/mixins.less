@@ -1,0 +1,17 @@
+@flex-direction-default: column;
+@flex-default: auto;
+
+.flex-parent(@direction: @flex-direction-default) {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: @direction;
+  -ms-flex-direction: @direction;
+  flex-direction: @direction;
+}
+
+.flex-child(@flex: @flex-default) {
+  -webkit-flex: @flex;
+  -ms-flex: @flex;
+  flex: @flex;
+}
